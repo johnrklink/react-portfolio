@@ -1,5 +1,6 @@
 const nodemailer = require('nodemailer');
 
+
 const transporter = nodemailer.createTransport({
   host: 'smtp.example.com',
   port: 587,

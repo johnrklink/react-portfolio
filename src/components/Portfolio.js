@@ -1,6 +1,7 @@
 import React from 'react';
 import BookHubPic from '../assets/book-hub.png'
 import JobBoardPic from '../assets/job-board.png'
+import PetConnectPic from '../assets/pet-connect.png'
 import '../App.css'
 
 function Portfolio() {
@@ -19,13 +20,13 @@ function Portfolio() {
       githubLink: 'https://github.com/dannikaml/interactive-2',
       description: 'My second group project I build the handlebars and assisted with the CSS again as well as adding in Moment to the app.',
     },
-    // {
-    //   title: 'Project 3',
-    //   image: '',
-    //   deployedLink: 'https://project3.com',
-    //   githubLink: 'https://github.com/username/project3',
-    // },
-    // add more projects as needed
+    {
+      title: 'Pet-Connect',
+      image : PetConnectPic,
+      deployedLink: 'https://project3.com',
+      githubLink: 'https://github.com/johnrklink/pet-connect?organization=johnrklink&organization=johnrklink',
+    },
+  
   ];
 
   return (

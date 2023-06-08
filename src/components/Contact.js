@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 import '../App.css'
-import dotenv from '../.env';
-dotenv.config();
 
 
 function Contact() {

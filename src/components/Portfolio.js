@@ -35,7 +35,7 @@ function Portfolio() {
       {projects.map(project => (
         <div key={project.title}>
           <h3>{project.title}</h3>
-          <img src={project.image} alt={project.title} />
+          <img src={project.image} alt={project.title} className="portfolio-img" />
           <p><a href={project.deployedLink}>View deployed app</a></p>
           <p><a href={project.githubLink}>View on GitHub</a></p>
           <p>{project.description}</p>

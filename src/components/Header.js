@@ -7,12 +7,7 @@ function Header() {
   return (
     <header className="App-Header">
       <h1>John Klink</h1>
-      <img
-  className='profile-img'
-  src={ProfilePicture}
-  alt="Profile Picture"
-  style={{maxWidth: "300px", maxHeight: "300px"}}
-/>
+ 
       <nav>
         <ul>
           <li>

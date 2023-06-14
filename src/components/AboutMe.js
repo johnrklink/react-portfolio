@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ProfilePicture from '../assets/profile.png';
-
 import '../Card.css';
 
 function AboutMe() {

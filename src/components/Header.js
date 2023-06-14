@@ -1,13 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../App.css'
-import ProfilePicture from '../assets/profile.png';
+
 
 function Header() {
   return (
     <header className="App-Header">
       <h1>John Klink</h1>
- 
       <nav>
         <ul>
           <li>

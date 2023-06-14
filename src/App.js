@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
@@ -17,7 +17,9 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('https://api.github.com/repos/johnrklink/react-portfolio/pages/deployments');
+      const response = await fetch(
+        'https://api.github.com/repos/johnrklink/react-portfolio/pages/deployments'
+      );
       const jsonData = await response.json();
       setData(jsonData);
     } catch (error) {
@@ -28,13 +30,15 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
-        <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
+        <div className="content">
+          <Header />
+          <Routes>
+            <Route path="/" element={<AboutMe />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>

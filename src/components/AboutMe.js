@@ -3,14 +3,14 @@ import ProfilePicture from '../assets/profile.png';
 import '../Card.css';
 
 function AboutMe() {
-  const [flipped, setFlipped] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
 
-  const handleClick = () => {
-    setFlipped(!flipped);
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
   };
 
   return (
-    <div className={`section card ${flipped ? 'flipped' : ''}`} onClick={handleClick}>
+    <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
       <div className="card-front">
         <img
           className="profile-img"

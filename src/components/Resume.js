@@ -10,8 +10,8 @@ function Resume() {
       <h3>Proficiencies</h3>
       <ul>
         <li>Programming Languages: JavaScript, HTML, CSS</li>
-        <li>Frameworks/Libraries: React, Vue.js, Bootstrap, MERN.</li>
-        <li>Tools/Platforms: Git, Node.js, SQL .</li>
+        <li>Frameworks/Libraries: React, Vue.js, Bootstrap, MERN, Handlebars.</li>
+        <li>Tools/Platforms: Git, Node.js, SQL, Mongo DB.</li>
       </ul>
     </section>
   );

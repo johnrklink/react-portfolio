@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9c097ab2.css",
-    "main.js": "/react-portfolio/static/js/main.a2c1f8b2.js",
+    "main.css": "/react-portfolio/static/css/main.6ea48567.css",
+    "main.js": "/react-portfolio/static/js/main.82de0655.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Henry-and-Co.jpeg": "/react-portfolio/static/media/Henry-and-Co.62c32ee34753298b4b6a.jpeg",
     "static/media/pet-connect.png": "/react-portfolio/static/media/pet-connect.005c68e0c24a173ffe0d.png",
-    "static/media/pexels-tom-verdoot-1446713.jpg": "/react-portfolio/static/media/pexels-tom-verdoot-1446713.587ce8c3d3c47a97d59d.jpg",
     "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.9b429a256e430393be8f.pdf",
     "static/media/profile.png": "/react-portfolio/static/media/profile.c30403d38658ed3be321.png",
     "static/media/book-hub.png": "/react-portfolio/static/media/book-hub.3fdb603323e59ba64d4a.png",
     "index.html": "/react-portfolio/index.html",
-    "main.9c097ab2.css.map": "/react-portfolio/static/css/main.9c097ab2.css.map",
-    "main.a2c1f8b2.js.map": "/react-portfolio/static/js/main.a2c1f8b2.js.map",
+    "main.6ea48567.css.map": "/react-portfolio/static/css/main.6ea48567.css.map",
+    "main.82de0655.js.map": "/react-portfolio/static/js/main.82de0655.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c097ab2.css",
-    "static/js/main.a2c1f8b2.js"
+    "static/css/main.6ea48567.css",
+    "static/js/main.82de0655.js"
   ]
 }

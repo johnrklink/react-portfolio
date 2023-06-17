@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b64adc5d.css",
-    "main.js": "/react-portfolio/static/js/main.7fc7510d.js",
+    "main.css": "/react-portfolio/static/css/main.9c097ab2.css",
+    "main.js": "/react-portfolio/static/js/main.a2c1f8b2.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/pet-connect.png": "/react-portfolio/static/media/pet-connect.005c68e0c24a173ffe0d.png",
     "static/media/pexels-tom-verdoot-1446713.jpg": "/react-portfolio/static/media/pexels-tom-verdoot-1446713.587ce8c3d3c47a97d59d.jpg",
@@ -9,12 +9,12 @@
     "static/media/profile.png": "/react-portfolio/static/media/profile.c30403d38658ed3be321.png",
     "static/media/book-hub.png": "/react-portfolio/static/media/book-hub.3fdb603323e59ba64d4a.png",
     "index.html": "/react-portfolio/index.html",
-    "main.b64adc5d.css.map": "/react-portfolio/static/css/main.b64adc5d.css.map",
-    "main.7fc7510d.js.map": "/react-portfolio/static/js/main.7fc7510d.js.map",
+    "main.9c097ab2.css.map": "/react-portfolio/static/css/main.9c097ab2.css.map",
+    "main.a2c1f8b2.js.map": "/react-portfolio/static/js/main.a2c1f8b2.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b64adc5d.css",
-    "static/js/main.7fc7510d.js"
+    "static/css/main.9c097ab2.css",
+    "static/js/main.a2c1f8b2.js"
   ]
 }

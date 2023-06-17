@@ -41,19 +41,21 @@ function Portfolio() {
       image: JobBoardPic,
       deployedLink: 'https://bored-of-my-job-board.herokuapp.com/',
       githubLink: 'https://github.com/dannikaml/interactive-2',
-      description: 'My second group project I build the handlebars and assisted with the CSS again as well as adding in Moment to the app.',
+      description: 'My second group project I build the handlebars and added Moment to the app.',
     },
     {
       title: 'Pet-Connect',
       image: PetConnectPic,
       deployedLink: 'https://project3.com',
       githubLink: 'https://github.com/johnrklink/pet-connect?organization=johnrklink&organization=johnrklink',
+      description: 'The third group project I worked on building the React app and debugging as well as helping with CSS.'
     },
   ];
 
   return (
     <section>
       <h2>Portfolio</h2>
+      <p>Click Us</p>
       {projects.map(project => (
         <Card key={project.title} project={project} />
       ))}

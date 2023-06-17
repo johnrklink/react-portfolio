@@ -1,11 +1,18 @@
-.card {
+.about-card {
   position: relative;
-  width: 50%; /* Set the card width to 50% of the page */
-  height: 400px; /* Set a fixed height for the card */
-  perspective: 1000px;
-  margin: 0 auto; /* Center the card horizontally */
-  border: 2px solid black; /* Add border properties */
-  box-sizing: border-box; /* Include border in the element's total width and height */
+  width: 450px; 
+  height: 450px; 
+  margin: 0 auto;  
+  box-sizing: border-box; 
+}
+
+.port-card {
+  position: relative;
+  width: 25%; 
+  height: 300px; 
+  margin: 0 auto; 
+  border: 2px solid black; 
+  box-sizing: border-box; 
 }
 
 .card-front,
@@ -35,17 +42,9 @@
   transform: rotateY(0deg);
 }
 
-.about-card {
-  width: 100%; /* Take up 100% width of parent container */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .profile-img {
-  width: 100%;
+  width: 450px;
   height: auto;
   object-fit: cover;
-  max-width: 100%; /* Adjust to your desired maximum width */
-  max-height: 100%; /* Adjust to your desired maximum height */
 }

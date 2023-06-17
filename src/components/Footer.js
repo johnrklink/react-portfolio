@@ -9,6 +9,7 @@ function Footer() {
         <li><a href="https://www.linkedin.com/in/john-klink-068818260/">LinkedIn</a></li>
         <li><a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage">Indeed</a></li>
       </ul>
+      <p className='footer-p'>Image rights to Henry & Co</p>
     </footer>
   );
 }
